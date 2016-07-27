@@ -1,0 +1,19 @@
+{
+  "name": "img-assets-webpack-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vega-wong/img-assets-webpack-plugin.git"
+  },
+  "author": "vegawong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vega-wong/img-assets-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/vega-wong/img-assets-webpack-plugin#readme"
+}
