@@ -28,7 +28,7 @@ ImgAssetsPlugin.prototype.apply = function(compiler) {
       if (v.name.match(/.(png|gif|jpe?g)$/)) {
         item = {
           name: v.name,
-          assets: path.join(statsJson.publicPath, v.assets[0] || '')
+          assets: statsJson.publicPath + v.assets[0]
         };
         if (v.assets.length == 0) {
           item.assets = eval(v.source);
